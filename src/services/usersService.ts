@@ -1,4 +1,4 @@
-import IUserDto from "../dto/UserDTO";
+import IUserDto from "../dto/UserDto";
 import IUser from "../interfaces/IUser";
 
 const users: IUser[] = [];
