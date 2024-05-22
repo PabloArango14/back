@@ -14,7 +14,7 @@ interface IRecurso {
 const router: Router = Router();
 
 router.post("/users", createUser);
-router.get("/users");
-router.delete("/users");
+router.get("/users", getUsers);
+router.delete("/users", deleteUser);
 
 export default router;
